@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B85DECC1536CDAF00987206 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B85DECB1536CDAF00987206 /* UIKit.framework */; };
+		1B85DECE1536CDAF00987206 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B85DECD1536CDAF00987206 /* Foundation.framework */; };
+		1B85DED01536CDAF00987206 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B85DECF1536CDAF00987206 /* CoreGraphics.framework */; };
+		1B85DED61536CDAF00987206 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B85DED41536CDAF00987206 /* InfoPlist.strings */; };
+		1B85DED81536CDAF00987206 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B85DED71536CDAF00987206 /* main.m */; };
+		1B85DEDC1536CDAF00987206 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B85DEDB1536CDAF00987206 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B85DEC71536CDAF00987206 /* ballAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ballAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B85DECB1536CDAF00987206 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1B85DECD1536CDAF00987206 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B85DECF1536CDAF00987206 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1B85DED31536CDAF00987206 /* ballAnimation-Info.plist */ = {isa = PBXFileReference; path = "ballAnimation-Info.plist"; sourceTree = "<group>"; };
+		1B85DED51536CDAF00987206 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B85DED71536CDAF00987206 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B85DED91536CDAF00987206 /* ballAnimation-Prefix.pch */ = {isa = PBXFileReference; path = "ballAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		1B85DEDA1536CDAF00987206 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B85DEDB1536CDAF00987206 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B85DEC41536CDAF00987206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B85DECC1536CDAF00987206 /* UIKit.framework in Frameworks */,
+				1B85DECE1536CDAF00987206 /* Foundation.framework in Frameworks */,
+				1B85DED01536CDAF00987206 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B85DEBC1536CDAF00987206 = {
+			isa = PBXGroup;
+			children = (
+				1B85DED11536CDAF00987206 /* ballAnimation */,
+				1B85DECA1536CDAF00987206 /* Frameworks */,
+				1B85DEC81536CDAF00987206 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B85DEC81536CDAF00987206 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B85DEC71536CDAF00987206 /* ballAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B85DECA1536CDAF00987206 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B85DECB1536CDAF00987206 /* UIKit.framework */,
+				1B85DECD1536CDAF00987206 /* Foundation.framework */,
+				1B85DECF1536CDAF00987206 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B85DED11536CDAF00987206 /* ballAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				1B85DEDA1536CDAF00987206 /* AppDelegate.h */,
+				1B85DEDB1536CDAF00987206 /* AppDelegate.m */,
+				1B85DED21536CDAF00987206 /* Supporting Files */,
+			);
+			path = ballAnimation;
+			sourceTree = "<group>";
+		};
+		1B85DED21536CDAF00987206 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B85DED31536CDAF00987206 /* ballAnimation-Info.plist */,
+				1B85DED41536CDAF00987206 /* InfoPlist.strings */,
+				1B85DED71536CDAF00987206 /* main.m */,
+				1B85DED91536CDAF00987206 /* ballAnimation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B85DEC61536CDAF00987206 /* ballAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B85DEDF1536CDAF00987206 /* Build configuration list for PBXNativeTarget "ballAnimation" */;
+			buildPhases = (
+				1B85DEC31536CDAF00987206 /* Sources */,
+				1B85DEC41536CDAF00987206 /* Frameworks */,
+				1B85DEC51536CDAF00987206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ballAnimation;
+			productName = ballAnimation;
+			productReference = 1B85DEC71536CDAF00987206 /* ballAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B85DEBE1536CDAF00987206 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1B85DEC11536CDAF00987206 /* Build configuration list for PBXProject "ballAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B85DEBC1536CDAF00987206;
+			productRefGroup = 1B85DEC81536CDAF00987206 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B85DEC61536CDAF00987206 /* ballAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B85DEC51536CDAF00987206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B85DED61536CDAF00987206 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B85DEC31536CDAF00987206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B85DED81536CDAF00987206 /* main.m in Sources */,
+				1B85DEDC1536CDAF00987206 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B85DED41536CDAF00987206 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B85DED51536CDAF00987206 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B85DEDD1536CDAF00987206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B85DEDE1536CDAF00987206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B85DEE01536CDAF00987206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ballAnimation/ballAnimation-Prefix.pch";
+				INFOPLIST_FILE = "ballAnimation/ballAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1B85DEE11536CDAF00987206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ballAnimation/ballAnimation-Prefix.pch";
+				INFOPLIST_FILE = "ballAnimation/ballAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B85DEC11536CDAF00987206 /* Build configuration list for PBXProject "ballAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B85DEDD1536CDAF00987206 /* Debug */,
+				1B85DEDE1536CDAF00987206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B85DEDF1536CDAF00987206 /* Build configuration list for PBXNativeTarget "ballAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B85DEE01536CDAF00987206 /* Debug */,
+				1B85DEE11536CDAF00987206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B85DEBE1536CDAF00987206 /* Project object */;
+}
